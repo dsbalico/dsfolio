@@ -39,5 +39,9 @@ yarn dev
 ```
 Visit http://localhost:5173/ in your browser
 
+## Configurations
+- You can change content of the website at `/data/user_info.js`
+- Change the Google Analytics MEASUREMENT ID at `index.html` to your own.
+
 ## Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback is highly appreciated!
