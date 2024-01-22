@@ -1,10 +1,11 @@
 const info = {
     main: {
         name: "Daniel Shan Balico",
-        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
         role: "Software Engineer",
         photo: "../photo.jpg",
-        email: "danielshan.balico@gmail.com"
+        email: "danielshan.balico@gmail.com",
+        tracking_id: "G-BNTTBGHXSC"
     },
 
     socials: {
@@ -12,7 +13,6 @@ const info = {
 		github: "https://github.com/dsbalico",
 		linkedin: "https://linkedin.com/in/daniel-shan-balico",
 		instagram: "https://instagram.com/dsbalico",
-		stackoverflow: "https://stackoverflow.com/users/14027540/daniel-shan-balico",
 		facebook: "https://facebook.com/dsbalico",
         telegram: "https://telegram.me/dsbalico"
     },
