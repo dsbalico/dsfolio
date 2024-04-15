@@ -1,8 +1,6 @@
 
 # DSFolio V1
 
-DSFolio is my own personal portfolio built using React.js and Tailwind CSS. It offers a simple means for developers to exhibit their work, expertise, and accomplishments in a professional and visually engaging manner. DSFolio stands out with its adaptable design and well-organized code, allowing effortless customization to meet the unique requirements and tastes of users. This makes it a perfect option for individuals seeking to craft an impressive online portfolio.
-
 <center>
     <img src="/public/cover.jpeg" alt="Reactfolio" />
 </center>
