@@ -25,7 +25,7 @@ https://dsbalico.netlify.app
     ```
 2. Change into the project directory
     ```bash
-    cd dsfolio
+    cd dsfolio-v1
     ```
 3. Install dependencies
     ```bash
