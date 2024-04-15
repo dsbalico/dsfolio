@@ -16,12 +16,12 @@ https://dsbalico.netlify.app
 </center>
 
 ## Technologies Used
-<img  src="https://skillicons.dev/icons?i=html,css,react,nodejs,netlify&perline=7"/>
+<img  src="https://skillicons.dev/icons?i=html,css,react,tailwind,netlify&perline=7"/>
 
 ## Installation
 1. Clone the repository
     ```bash 
-    git clone https://github.com/dsbalico/dsfolio.git
+    git clone https://github.com/dsbalico/dsfolio-v1.git
     ```
 2. Change into the project directory
     ```bash
