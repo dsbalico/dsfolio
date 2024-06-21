@@ -32,7 +32,7 @@ function EducationAndExperience() {
 
                 <div className="grow p-2 pb-8">
                   <h3 className="flex items-center gap-x-1.5 font-semibold text-zinc-800 dark:text-white">
-                    <img className="w-8 h-8 rounded-full" src={edu.image} />
+                    <img className="w-8 h-8 rounded-full" src={edu.image} alt="School Logo" />
                     {edu.school}
                   </h3>
                   <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
@@ -170,7 +170,7 @@ function EducationAndExperience() {
 
                   <div className="grow p-2 pb-8">
                     <h3 className="flex items-center gap-x-1.5 font-semibold text-zinc-800 dark:text-white">
-                      <img className="w-8 h-8 rounded-full" src={exp.image} />
+                      <img className="w-8 rounded-full" src={exp.image} alt="Company Logo" />
                       {exp.company}
                     </h3>
                     <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">

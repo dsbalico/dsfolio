@@ -8,6 +8,7 @@ function Hero() {
         <img
           src={user_info.main.photo}
           className="rounded-full w-20 mb-6 lg:hidden"
+          alt="Daniel Shan Balico Graduation Picture"
         />
         <div className="flex gap-2 align-center flex-wrap md:flex-nowrap">
           <div className="lg:w-[80%] text-zinc-900 dark:text-zinc-100 self-center">
@@ -41,6 +42,7 @@ function Hero() {
             <img
               className="rounded-[10%] transform rotate-3"
               src={user_info.main.photo}
+              alt="Daniel Shan Balico Graduation Picture"
             />
           </div>
         </div>

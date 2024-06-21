@@ -4,7 +4,7 @@ const info = {
         name: "Daniel Shan Balico",
         description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
         role: "Software Engineer",
-        photo: "../photo.jpg",
+        photo: "../photo.webp",
         email: "danielshan.balico@gmail.com",
         tracking_id: "G-BNTTBGHXSC"
     },
@@ -76,13 +76,13 @@ const info = {
             school: "Technological University of the Philippines",
             degree: "Bachelor of Science in Computer Science",
             duration: "2020 - 2024",
-            image: "tup.png"
+            image: "tup.webp"
         },
         {
             school: "STI College",
             degree: "ICT in Mobile App and Web Development",
             duration: "2018 - 2020",
-            image: "sti.png"
+            image: "sti.webp"
         },
     ],
 
