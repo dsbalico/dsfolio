@@ -10,11 +10,13 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 function Skills() {
   return (
-    <section className="mx-4 lg:mx-20">
+    <section id="skills" className="mx-4 lg:mx-20">
+      {/* =========== SKILLS TITLE =========== */}
       <h4 className="text-4xl font-bold text-center mt-20 dark:text-white">
         Technologies I Use.
       </h4>
 
+      {/* =========== LIST OF SKILLS =========== */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 mt-8">
 				<span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <FaHtml5 className="text-2xl" /> HTML

@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function Hero() {
   return (
-    <section className="pb-28 pt-24 sm:pt-28 md:pt-44 flex px-6 md:px-24">
+    <section id="hero" className="pb-28 pt-24 sm:pt-28 md:pt-44 flex px-6 lg:px-24">
       <div className="self-center">
         <img
           src={user_info.main.photo}
