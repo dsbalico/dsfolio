@@ -25,18 +25,18 @@ function Project({ title, description, technologies, link, github }) {
 
       <div className="flex gap-6 text-zinc-600 dark:text-zinc-300 font-medium">
         {/* =========== PROJECT LINK =========== */}
-        <a className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
+        <a href={link} className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
           <CiLink className="text-2xl self-center" />
-          <a href={link} className="text-xs self-center">
+          <span className="text-xs self-center">
             View Project
-          </a>
+          </span>
         </a>
         {/* =========== PROJECT GITHUB =========== */}
-        <a className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
+        <a href={github} className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
           <CiLink className="text-2xl self-center" />
-          <a href={github} className="text-xs self-center">
+          <span className="text-xs self-center">
             View Github
-          </a>
+          </span>
         </a>
       </div>
     </div>
