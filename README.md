@@ -41,3 +41,7 @@ Visit http://localhost:5173/ in your browser
 
 ## Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback is highly appreciated!
+
+## Note
+- Before deploying this website, please remove or update the Google Analytics MEASUREMENT ID in `index.html`
+- If you find this project useful, consider leaving a star. Thank you! 😊

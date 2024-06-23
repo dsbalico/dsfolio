@@ -1,7 +1,7 @@
 import user_info from "../../data/user_info.js";
 
 import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
-import { FaFacebook, FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 function Contact() {
@@ -68,15 +68,6 @@ function Contact() {
       >
         <MdEmail className="self-center text-lg text-red-800 dark:text-red-500" />
         <span>{user_info.main.email}</span>
-      </a>
-
-      {/* =========== TELEGRAM =========== */}
-      <a
-        href={user_info.socials.telegram}
-        className="flex mt-6 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 gap-4 hover:text-zinc-700 transition-all duration-30"
-      >
-        <FaTelegramPlane className="self-center text-lg text-red-800 dark:text-red-500" />
-        <span>Message on Telegram</span>
       </a>
     </section>
   );

@@ -3,10 +3,9 @@ const info = {
     main: {
         name: "Daniel Shan Balico",
         description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
-        role: "Software Engineer",
+        role: "Full-Stack Developer",
         photo: "../photo.webp",
         email: "danielshan.balico@gmail.com",
-        tracking_id: "G-BNTTBGHXSC"
     },
 
     // ============ SOCIAL LINKS ============
@@ -16,7 +15,6 @@ const info = {
 		linkedin: "https://linkedin.com/in/dsbalico",
 		instagram: "https://instagram.com/dsbalico",
 		facebook: "https://facebook.com/dsbalico",
-        telegram: "https://telegram.me/dsbalico"
     },
 
     // ============ PROJECTS ============

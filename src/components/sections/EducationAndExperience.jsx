@@ -36,14 +36,17 @@ function EducationAndExperience() {
 
                 <div className="grow p-2 pb-8">
                   {/* =========== IMAGE AND SCHOOL NAME =========== */}
-                  <h3 className="flex items-center gap-x-1.5 font-semibold text-zinc-800 dark:text-white">
-                    <img className="w-8 h-8 rounded-full" src={edu.image} alt="School Logo" />
-                    {edu.school}
+                  <h3 className="flex items-center gap-x-2 font-semibold text-zinc-800 dark:text-white">
+                    <img className="w-9 h-9 rounded-full" src={edu.image} alt="School Logo" />
+                    <div className="leading-5">
+                      {edu.school}
+                      {/* =========== DEGREE =========== */}
+                      <p className="font-normal text-xs text-zinc-600 dark:text-zinc-400">
+                        {edu.degree}
+                      </p>
+                    </div>
                   </h3>
-                  {/* =========== DEGREE =========== */}
-                  <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-                    {edu.degree}
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -186,14 +189,17 @@ function EducationAndExperience() {
 
                   <div className="grow p-2 pb-8">
                     {/* =========== COMPANY NAME =========== */}
-                    <h3 className="flex items-center gap-x-1.5 font-semibold text-zinc-800 dark:text-white">
-                      <img className="w-8 rounded-full" src={exp.image} alt="Company Logo" />
-                      {exp.company}
+                    <h3 className="flex items-center gap-x-2 font-semibold text-zinc-800 dark:text-white">
+                      <img className="w-9 rounded-full" src={exp.image} alt="Company Logo" />
+                      <div className="leading-5">
+                        {exp.company}
+                        {/* =========== POSITION =========== */}
+                        <p className="font-normal text-xs text-zinc-600 dark:text-zinc-400">
+                          {exp.position}
+                        </p>
+                      </div>
                     </h3>
-                    {/* =========== POSITION =========== */}
-                    <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-                      {exp.position}
-                    </p>
+                    
                     <ul className="list-disc list-inside text-zinc-800 dark:text-white mt-2">
                       {/* =========== DESCRIPTION LIST =========== */}
                       {exp.descriptions.map((desc, index) => {
@@ -213,7 +219,7 @@ function EducationAndExperience() {
                             >
                               <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span className="text-zinc-500 dark:text-zinc-400">
+                            <span className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
                               {desc}
                             </span>
                           </li>
