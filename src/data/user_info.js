@@ -22,9 +22,9 @@ const info = {
         {
 			title: "Pseudocode to C",
 			description: "Pseudocode to C is a web app that translates pseudocode into C code, aiding in the transition from high-level logic to a lower-level language.",
-            technologies: "React, Tailwind, Tensorflow",
-			github: "https://github.com/dsbalico/letter-digit-shape-classification",
-            link: "https://letterdigitshape-classification.netlify.app/"
+            technologies: "React, Tailwind, Flask, SpaCy",
+			github: "https://github.com/dsbalico/pseudocode-to-c",
+            link: "https://pseudocode-to-c.netlify.app/"
 		},
 
         {
