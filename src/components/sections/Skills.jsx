@@ -5,7 +5,7 @@ import { FaDocker } from "react-icons/fa";
 import { FaAws, FaCss3Alt, FaDigitalOcean, FaGitAlt, FaGitlab, FaHtml5, FaNodeJs, FaPython, FaReact, FaVuejs } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoFirebase } from "react-icons/io5";
-import { SiAntdesign, SiExpress, SiFlask, SiNuxtdotjs, SiPassport, SiPostman, SiPythonanywhere, SiSequelize, SiTailwindcss, SiTensorflow } from "react-icons/si";
+import { SiAntdesign, SiExpress, SiFlask, SiJest, SiNuxtdotjs, SiPassport, SiPostman, SiPythonanywhere, SiSequelize, SiTailwindcss, SiTensorflow } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 function Skills() {
@@ -116,7 +116,7 @@ function Skills() {
           </span>
         </span>
 				<span className="hs-tooltip [--placement:bottom] hs-tooltip-toggle inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
-          <TbBrandNextjs className="text-2xl" /> NextJS
+          <SiJest className="text-2xl" /> Jest
 
           {/* =========== TOOLTIP TEXT =========== */}
           <span className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm" role="tooltip">
