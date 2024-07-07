@@ -169,7 +169,7 @@ function EducationAndExperience() {
           Experience
         </h4>
 
-        <div className="md:h-[508px] md:overflow-y-scroll scroll-smooth">
+        <div className="md:h-[480px] md:overflow-y-scroll scroll-smooth">
           {/* =========== EXPERIENCE LIST =========== */}
           {user_info.experience.map((exp, index) => {
             return (

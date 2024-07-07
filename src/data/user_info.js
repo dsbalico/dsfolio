@@ -87,6 +87,15 @@ const info = {
     // ============ EXPERIENCE ============
     experience: [
         {
+            position: "Junior Full-Stack Developer",
+            company: "Centralized Cloud Computing International, Inc.",
+            duration: "July 2024 - Present",
+            image: "ccci.webp",
+            descriptions: [
+                "Absorbed in a full-stack web development role, working on a variety of projects and tasks.",
+            ]
+        },
+        {
             position: "Full-Stack Developer Intern",
             company: "Centralized Cloud Computing International, Inc.",
             duration: "Mar 2024 - Jun 2024 (3 Months)",
