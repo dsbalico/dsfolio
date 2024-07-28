@@ -87,18 +87,24 @@ const info = {
     // ============ EXPERIENCE ============
     experience: [
         {
+            position: "Junior Full-Stack Developer",
+            company: "Centralized Cloud Computing International, Inc.",
+            duration: "Mar 2024 - Present",
+            image: "ccci.webp",
+            descriptions: [
+                "Develop and maintain full-stack web applications, including content management systems (CMS).",
+                "Convert Figma designs into responsive and interactive front-end interfaces.",
+            ]
+        },
+        {
             position: "Full-Stack Developer Intern",
             company: "Centralized Cloud Computing International, Inc.",
             duration: "Mar 2024 - Jun 2024 (3 Months)",
             image: "ccci.webp",
             descriptions: [
                 "Completed an extensive training program in full-stack web development.",
-                "Acquired practical experience with Nuxt.js, Tailwind, and Ant Design.",
-                "Developed RESTful APIs using Express.js for back-end functionality.",
                 "Actively contributed to the ongoing development of a web application.",
-                "Utilized Git and GitLab for effective version control and team collaboration.",
-                "Mentored by senior developers on development best practices, code optimization, and deployment.",
-                "Participated in Agile workflows for daily updates and team alignment."
+                "Mentored by senior developers on best practices and code optimization.",
             ]
         },
         {
