@@ -89,7 +89,7 @@ const info = {
         {
             position: "Junior Full-Stack Developer",
             company: "Centralized Cloud Computing International, Inc.",
-            duration: "Mar 2024 - Present",
+            duration: "July 2024 - Present",
             image: "ccci.webp",
             descriptions: [
                 "Develop and maintain full-stack web applications, including content management systems (CMS).",
