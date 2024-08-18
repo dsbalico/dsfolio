@@ -86,16 +86,16 @@ const info = {
 
     // ============ EXPERIENCE ============
     experience: [
-        {
-            position: "Junior Full-Stack Developer",
-            company: "Centralized Cloud Computing International, Inc.",
-            duration: "July 2024 - Present",
-            image: "ccci.webp",
-            descriptions: [
-                "Develop and maintain full-stack web applications, including content management systems (CMS).",
-                "Convert Figma designs into responsive and interactive front-end interfaces.",
-            ]
-        },
+        // {
+        //     position: "Junior Full-Stack Developer",
+        //     company: "Centralized Cloud Computing International, Inc.",
+        //     duration: "July 2024 - Present",
+        //     image: "ccci.webp",
+        //     descriptions: [
+        //         "Develop and maintain full-stack web applications, including content management systems (CMS).",
+        //         "Convert Figma designs into responsive and interactive front-end interfaces.",
+        //     ]
+        // },
         {
             position: "Full-Stack Developer Intern",
             company: "Centralized Cloud Computing International, Inc.",
