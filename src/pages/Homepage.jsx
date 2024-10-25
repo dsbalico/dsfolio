@@ -29,7 +29,6 @@ function Homepage() {
 				<EducationAndExperience />
         <Skills />
         <Contact />
-
         <hr className="mt-12 border border-zinc-300 dark:border-zinc-800" />
         <Footer theme={theme} />
       </div>

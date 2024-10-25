@@ -1,6 +1,5 @@
 import user_info from "../../data/user_info.js";
-
-import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
+import { FaSquareXTwitter, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -56,6 +55,13 @@ function Contact() {
         >
           <FaLinkedin className="self-center text-lg text-red-800 dark:text-red-500" />
           <span className="self-center">Follow on Linkedin</span>
+        </a>
+        <a
+          href={user_info.socials.whatsapp}
+          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
+        >
+          <FaWhatsapp className="self-center text-lg text-red-800 dark:text-red-500" />
+          <span className="self-center">Whatsapp</span>
         </a>
       </div>
 

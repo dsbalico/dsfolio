@@ -13,7 +13,7 @@ function Hero() {
           />
 
           {/* =========== TOOLTIP TEXT =========== */}
-          <span className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity  inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm" role="tooltip">
+          <span className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm" role="tooltip">
             Hello! 👋 How are you doing? 🤔
           </span>
         </div>
@@ -35,6 +35,17 @@ function Hero() {
               >
                 Projects
               </a>
+
+              {/* =========== RESUME BUTTON =========== */}
+              <a
+                href="/Resume.pdf"  // Update with actual path to your resume
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 border border-black hover:bg-blue-800 hover:text-white hover:border-blue-800 dark:border-white font-medium transition-all duration-300"
+              >
+                Resume
+              </a>
+
               <a
                 href="#contact"
                 className="px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 flex gap-3 hover:gap-4"
@@ -49,7 +60,7 @@ function Hero() {
             <img
               className="rounded-[10%] transform rotate-3"
               src={user_info.main.photo}
-              alt="Daniel Shan Balico Graduation Picture"
+              alt="Vinod Mokashi Graduation Picture"
             />
           </div>
         </div>
