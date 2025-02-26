@@ -12,7 +12,7 @@ https://dsfolio-v1.vercel.app/
 </center>
 
 ## Technologies Used
-<img  src="https://skillicons.dev/icons?i=html,css,react,tailwind,netlify&perline=7"/>
+<img  src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,netlify&perline=7"/>
 
 ## Installation
 1. Clone the repository
