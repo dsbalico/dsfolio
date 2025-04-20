@@ -1,5 +1,5 @@
 
-# DSFolio V1
+# DSFolio
 
 <center>
     <img src="/public/cover.png" alt="DSFolio" />
